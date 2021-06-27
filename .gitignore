@@ -1,0 +1,10 @@
+# Do not commit build binaries/files
+build/*
+
+# Do not commit build related files
+src/lib/
+src/backup/
+
+# To allow empty directories
+!*/.keep
+!*/.gitkeep
